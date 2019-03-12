@@ -3,12 +3,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-const App = () => {
-  return (
-    <div>
-      <h3 style={{color:'red'}}>React Basic BoilerPlate Container.</h3>
-    </div>
-  )
-}
+import {App} from './App'
 
 ReactDOM.render(<App />, document.getElementById("container"));

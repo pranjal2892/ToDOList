@@ -88,3 +88,10 @@ webpack.config.js
 plugins: [
     new webpack.HotModuleReplacementPlugin()
   ],
+
+
+Code-Splitting
+All data would not merge in single bundle but in different files.
+Dynamic imports dows code-splitting
+
+configure code splitting using webpack and babel
