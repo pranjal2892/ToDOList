@@ -81,3 +81,10 @@ module.exports = {
     extensions: ['*', '.js', '.jsx']
   },
 }
+
+react-hot-loader => to see the changes without reloading
+npm i -D react-hot loader
+webpack.config.js
+plugins: [
+    new webpack.HotModuleReplacementPlugin()
+  ],
