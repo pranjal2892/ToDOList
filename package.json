@@ -35,7 +35,10 @@
     "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
+    "extract-loader": "^3.1.0",
+    "handlebars-loader": "^1.7.1",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "react-router-dom": "^4.3.1"
   }
 }
