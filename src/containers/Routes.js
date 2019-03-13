@@ -12,7 +12,6 @@ export const Routes = () => {
     <main>
       <Switch>
         <Route path="/home" component={Home} />
-
       </Switch>
     </main>
     </div>

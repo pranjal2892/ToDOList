@@ -1,6 +1,17 @@
-
 import React from 'react'
 
-export const Headers = () => (
-    <div>Header data</div>
-)
+export class Headers extends React.Component{
+
+
+  onClick = () => {
+    
+  }
+  render() {
+    return (
+      <>
+          Header data
+          <button onClick={this.onClick}> </button>
+      </>
+    )
+  }
+}
