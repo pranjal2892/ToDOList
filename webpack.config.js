@@ -23,6 +23,14 @@ module.exports = {
       {
         test:/\.html$/,
         use: [ 'html-loader']
+      },
+      {
+        test:/\.css$/,
+        use: [ 'css-loader', 'style-loader']
+      },
+      {
+        test:/\.(png|svg|jpg|gif)$/,
+        use: [ 'file-loader']
       }
     ]
   },
