@@ -1,0 +1,7 @@
+export const BUG_ADDED = 'bugAdded'
+export const BUG_REMOVED = 'bugRemoved'
+export const BUG_RESOLVED = 'bugResolved'
+export const BUY_CAKE = 'buyCake'
+export const FETCH_USERS_REQUEST = 'FETCH_USERS_REQUEST'
+export const FETCH_USERS_SUCCESS= 'FETCH_USERS_SUCCESS'
+export const FETCH_USERS_FAILURE = 'FETCH_USERS_FAILURE'

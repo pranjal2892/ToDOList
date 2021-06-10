@@ -9,7 +9,9 @@ module.exports = {
     publicPath: '/',
     filename: 'bundle.js'
   },
+  devtool: 'source-map',
   devServer: {
+    inline:false,
     contentBase: './build',
     hot: true,
     historyApiFallback: true
@@ -27,15 +29,7 @@ module.exports = {
       },
       {
         test:/\.css$/,
-        use: [
-          { loader: 'style-loader'},
-          {
-            loader: 'css-loader',
-            options: {
-              modules: true
-            }
-          }
-        ]
+        use: ['style-loader', 'css-loader']
       },
       {
         test:/\.(png|svg|jpg|gif)$/,
